@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 (async () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
@@ -7,7 +7,7 @@
             coordsEl.parentElement.classList.remove('invisible');
         });
     }
-=======
+
 (() => {
     const earlyorderForm = document.querySelector('#earlyorder-form');
 
@@ -27,5 +27,5 @@
             earlyorderContact.value = '';
         }, 500);
     });
->>>>>>> feature/earlyorder
+
 })();
